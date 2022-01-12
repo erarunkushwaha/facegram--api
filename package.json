@@ -1,0 +1,28 @@
+{
+  "name": "instabook",
+  "version": "1.0.0",
+  "description": "This is instabook",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "instabook"
+  ],
+  "author": "Arun Kushwaha",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^1.28.1",
+    "cors": "^2.8.5",
+    "dotenv": "^11.0.0",
+    "express": "^4.17.2",
+    "express-async-errors": "^3.1.1",
+    "express-fileupload": "^1.2.1",
+    "http-status-codes": "^2.2.0",
+    "mongoose": "^6.1.6",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
